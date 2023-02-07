@@ -92,10 +92,7 @@ section > h3{
 }
 /* BOTÃO ( TODOS PICOLÉS )*/
 .todos-picoles{
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 10px;
+    margin-top: 30px;
     border-radius: 15px;
     font-size: 20px;
     font-family: 'Lobster', cursive;
@@ -174,11 +171,8 @@ footer .redes-sociais{
     text-align: center;
     align-items: center;
     flex-direction: column;
-    
     }
-    body li{
-        flex-direction: column;
-    }
+
 
     body button{
         display: block;
@@ -196,10 +190,13 @@ footer .redes-sociais{
          display: block;
          flex-direction: column;
          align-items: center;
-         gap: 12px;
+         font-size: 30px;
      }
     .mobile-menu a{
         display: block;
+    }
+    li a{
+        gap: 12px;
     }
     .img-principal{
         display: block;
@@ -212,6 +209,7 @@ footer .redes-sociais{
 
     .todos-picoles{
         display: block;
+        flex-direction: column;
         padding: 10px;
     }
  
@@ -228,7 +226,6 @@ footer .redes-sociais{
     }
 
     footer li{
-        font-size: 6px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
